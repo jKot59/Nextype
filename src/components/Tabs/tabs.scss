@@ -1,0 +1,23 @@
+@import '../../style/variables.scss';
+
+.tabs {
+    display: flex;
+    border-bottom: 1px solid $light-grey;
+
+    & .tab {
+        padding-bottom: 14px;
+        margin-right: 40px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 26px;
+        color: $grey;
+        border-bottom: 2px solid transparent;
+        cursor: pointer;
+        &:last-child {
+            margin-right: 0;
+        }
+        &_active {
+            border-color: $blue;
+        }
+    }
+}

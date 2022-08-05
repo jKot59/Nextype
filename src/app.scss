@@ -1,0 +1,29 @@
+@import './style/variables.scss';
+
+.app {
+    margin: 0 auto;
+    padding-top: 56px;
+    padding-bottom: 40px;
+    max-width: 1328px;
+    &__header {
+        margin-bottom: 16px;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+        color: $black;
+    }
+    &__subtitle {
+        margin-bottom: 32px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: $grey;
+    }
+}
+
+@media (max-width: 1400px) {
+    .app {
+        padding-top: 32px;
+        padding-left: 20px;
+    }
+}
